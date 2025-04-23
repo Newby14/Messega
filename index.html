@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Welcome & Thank You</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        color: #222;
+        padding: 20px;
+        background: linear-gradient(to right, #f0f4ff, #f9f9f9);
+        animation: backgroundShift 20s ease infinite;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        body {
+          background: #121212;
+          color: #e0e0e0;
+        }
+        .container {
+          background: #1e1e1e;
+          box-shadow: 0 2px 20px rgba(255, 255, 255, 0.05);
+        }
+        h2 {
+          color: #90caf9;
+        }
+        .footer {
+          color: #bbb;
+        }
+        .cta-button {
+          background-color: #90caf9;
+        }
+        .cta-button:hover {
+          background-color: #64b5f6;
+        }
+      }
+
+      @keyframes backgroundShift {
+        0% { background-position: 0 0; }
+        50% { background-position: 100% 0; }
+        100% { background-position: 0 0; }
+      }
+
+      .container {
+        max-width: 600px;
+        margin: auto;
+        background: #ffffff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+        animation: fadeIn 1s ease-out;
+      }
+
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(-20px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+
+      h2 {
+        color: #4a90e2;
+        animation: textSlide 1s ease-out;
+      }
+
+      @keyframes textSlide {
+        from { opacity: 0; transform: translateX(-20px); }
+        to { opacity: 1; transform: translateX(0); }
+      }
+
+      p {
+        line-height: 1.6;
+        font-weight: 500;
+        color: #2a2a2a;
+        animation: fadeIn 1.5s ease-out;
+      }
+
+      .footer {
+        margin-top: 30px;
+        font-size: 0.9em;
+        color: #555;
+        text-align: center;
+        animation: fadeIn 2s ease-out;
+      }
+
+      .social-icons img {
+        width: 24px;
+        height: 24px;
+        margin: 0 8px;
+        vertical-align: middle;
+      }
+
+      .cta-button {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 12px 20px;
+        background-color: #4a90e2;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 6px;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+      }
+
+      .cta-button:hover {
+        background-color: #357ab8;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Thanks for joining us! 🙌</h2>
+      <p>Hi <strong> Dear Customer </strong>,</p>
+      <p>
+        Thank you so much for choosing and trusting <strong>nanodigitalid</strong>! We're super excited to have you as part of our growing family 😊
+      </p>
+      <p>
+        We hope your first experience was a pleasant one. If you have any questions, need help, or just want to chat about what we offer — feel free to reach out anytime.
+      </p>
+      <p>
+        Let’s make your journey even more fun and fulfilling, together!
+      </p>
+      <a href="https://lynk.id/lc4xplz" class="cta-button">Explore More</a>
+      <p>Warm regards,<br />
+      <strong>Ardiano</strong><br />
+      Team nanodigitalid</p>
+      <div class="footer">
+        <div class="social-icons">
+          <a href="https://www.instagram.com/ardiano_0/"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" /></a>
+          <a href="https://www.facebook.com/yu.cahmbuletz/"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111392.png" alt="Facebook" /></a>
+          <a href="https://x.com/ArdianoNan9531?t=gUG2k82pXvqR5ODKCrafqg&s=08"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384017.png" alt="Twitter" /></a>
+    </div>
+  </body>
+</html>
